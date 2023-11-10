@@ -10,7 +10,11 @@ let numeri = 'numeri: ';
 for(let i = 0; i < 10; i++){
     const numero = prompt('inserisci il numero');
     somma += Number(numero);
-    numeri += numero + ' ';
+    if(i === 9){
+        numeri += numero;
+    }else{
+        numeri += numero + ' + ';
+    }
 }
 console.log('la somma dei numeri inseriti è: ' + somma);
 console.log(numeri);
