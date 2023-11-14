@@ -7,9 +7,11 @@ Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quan
 
 //while
 let somma = 0;
+const numeri = [];
 while(somma < 50){
     const numero = Number(prompt('Inserisci il numero'));
     somma += numero;
+    numeri.push(numero);
     console.log('Numero:', numero);
 }
 console.log('While - Somma:', somma);
