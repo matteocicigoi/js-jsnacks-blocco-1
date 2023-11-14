@@ -11,5 +11,5 @@ for(let i = 0; i < numero; i++){
     for(let y = 0; y < 10; y++){
         numeri.push(Math.floor(Math.random() * 100 + 1));
     }
-    alert('Array: ' + i + ' - ' + numeri);
+    alert(`Array: ${i} - ${numeri}`);
 }
