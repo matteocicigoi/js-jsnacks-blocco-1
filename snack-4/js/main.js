@@ -10,16 +10,18 @@ let somma = 0;
 while(somma < 50){
     const numero = Number(prompt('Inserisci il numero'));
     somma += numero;
-    console.log(somma);
+    console.log('Numero:', numero);
 }
 console.log('While - Somma:', somma);
+
+/*
 
 //do while
 let somma2 = 0;
 do{
     const numero = Number(prompt('Inserisci il numero'));
     somma2 += numero;
-    console.log(somma2);
+    console.log('Numero:', numero);
 }while(somma2 < 50);
 console.log('Do while - Somma:', somma2);
 
@@ -28,6 +30,8 @@ let somma3 = 0;
 for(let i = 0; somma3 < 50; i++){
     const numero = Number(prompt('Inserisci il numero'));
     somma3 += numero;
-    console.log(somma3);
+    console.log('Numero:', numero);
 }
 console.log('For - Somma:', somma3);
+
+*/
